@@ -1,0 +1,15 @@
+.body {
+  height: 600px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.title {
+    font-style: italic;
+    color: grey;
+    border: none;
+    width: 95%;
+
+}
