@@ -6,13 +6,7 @@
     "action": {
       "default_popup": "index.html"
     },
-    "browser_action": {
-      "default_icon": "assets/recycle-bin.png",
-      "icons": {
-         "kondo": "assets/recycle-bin.png"
-      }
-    },
-    "permissions": ["tabs", "storage"],
+    "permissions": ["tabs", "storage", "clipboardRead"],
     "commands": {
       "run-foo": {
         "suggested_key": {
