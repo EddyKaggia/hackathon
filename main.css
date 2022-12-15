@@ -1,18 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .body {
   height: 600px;
   width: 400px;
   /*border: 1px solid black;*/
   padding: 5px;
   border-radius: 10px;
-  background-color: #C3EEFA;
-  color: #72b7e3;
+  background-color: #72b7e3;
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  /*background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);*/
+  /*color: #72b7e3;*/
+  color: #1E2F97;
+  font-family: 'Offside', cursive;
 }
 
-.title {
+h1 {
+    text-align: center;
+}
+
+.title, textarea {
+    font-family: 'Offside', cursive;
     font-style: italic;
+    font-size: medium;
     color: grey;
     border: none;
     width: 95%;
     background-color: #9DCAEB;
     margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 4px;
+}
+
+#title-text {
+    border: hidden;
+    outline: none;
+}
+
+
+#title-text:focus {
+  border: hidden;
+  outline: none;
+}
+
+.textarea {
+  position: relative;
+  /* top: calc(100%); */
+  height: fit-content;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.button {
+margin-left: 10px;
+font-family: 'Offside', cursive;
+color: #1E2F97;
+background-color: #9DCAEB;
+border-radius: 5px;
+border: none;
+
 }
