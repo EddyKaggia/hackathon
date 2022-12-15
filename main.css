@@ -1,9 +1,11 @@
 .body {
   height: 600px;
   width: 400px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
+  background-color: #C3EEFA;
+  color: #72b7e3;
 }
 
 .title {
@@ -11,5 +13,6 @@
     color: grey;
     border: none;
     width: 95%;
-
+    background-color: #9DCAEB;
+    margin-left: 10px;
 }
